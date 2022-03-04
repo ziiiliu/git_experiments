@@ -1,7 +1,32 @@
+Starting >>> freyja_msgs
+Finished <<< freyja_msgs [1.16s]                      
+Starting >>> evaluation_msgs
+Finished <<< evaluation_msgs [0.86s]                      
+Starting >>> robomaster_msgs
+Finished <<< robomaster_msgs [0.76s]                      
+Starting >>> rvo_msgs
+Finished <<< rvo_msgs [0.72s]                      
+Starting >>> evaluation_infrastructure
+Finished <<< evaluation_infrastructure [1.10s]           
+Starting >>> passage_gnn_simple
+Finished <<< passage_gnn_simple [1.13s]           
+Starting >>> passage_gnn_simple_msgs
+Finished <<< passage_gnn_simple_msgs [0.73s]                     
+Starting >>> simple_simulator
+Finished <<< simple_simulator [1.27s]           
+Starting >>> lqg_control
+Finished <<< lqg_control [0.32s]                     
+Starting >>> robomaster_handler
+Finished <<< robomaster_handler [0.27s]                   
 Starting >>> rvo
 --- stderr: rvo                           
 make[2]: *** No rule to make target 'lib/RVO2/src/libRVO.so', needed by 'rvo'. Stop.
 make[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/rvo.dir/all] Error 2
 make: *** [Makefile:163: all] Error 2
 ---
-Failed   <<< rvo [0.16s, exited with code 2]
+Failed   <<< rvo [0.18s, exited with code 2]
+
+Summary: 10 packages finished [8.64s]
+  1 package failed: rvo
+  1 package had stderr output: rvo
+  2 packages not processed
