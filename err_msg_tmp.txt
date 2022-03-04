@@ -1,0 +1,7 @@
+Starting >>> rvo
+--- stderr: rvo                           
+make[2]: *** No rule to make target 'lib/RVO2/src/libRVO.so', needed by 'rvo'. Stop.
+make[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/rvo.dir/all] Error 2
+make: *** [Makefile:163: all] Error 2
+---
+Failed   <<< rvo [0.16s, exited with code 2]
